@@ -1,0 +1,41 @@
+
+.container {
+    overflow: hidden;
+    margin: auto;
+    max-width: 980px;
+    padding: 0 7px;
+}
+@media (min-width: 768px) {
+    .row.equal {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+.divText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+    .equal > div[class*='col-'] {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+
+.shadow {
+    border-style: outset;
+    padding:10px;
+}
+
+.shadow:hover {
+    box-shadow: 5px 5px 5px 5px;
+}
